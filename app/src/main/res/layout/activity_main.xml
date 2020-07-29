@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/offline_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/offline_bt"/>
+
+    <!--&lt;!&ndash;相对布局&ndash;&gt;-->
+    <!--<Button-->
+    <!--    android:id="@+id/bt1"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:text="@string/bt1"-->
+    <!--    app:layout_constraintTop_toTopOf="parent"-->
+    <!--    app:layout_constraintLeft_toLeftOf="parent"/>-->
+    <!---->
+    <!--<ListView-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:id="@+id/list_view"-->
+    <!--    app:layout_constraintTop_toBottomOf="@id/bt1"-->
+    <!--    app:layout_constraintLeft_toLeftOf="@id/bt1"/>-->
+    <!---->
+    <!--<androidx.recyclerview.widget.RecyclerView-->
+    <!--    android:id="@+id/recycle"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    app:layout_constraintTop_toBottomOf="@id/bt1"/>-->
+
+</LinearLayout>

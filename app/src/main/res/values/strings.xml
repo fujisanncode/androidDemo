@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bt1">按钮1</string>
+    <string name="menu_add">增加</string>
+    <string name="menu_remove">删除</string>
+    <string name="bt2">按钮2</string>
+    <string name="login_error">账号或者密码错误</string>
+    <string name="login_account">用户名</string>
+    <string name="login_pass">密码</string>
+    <string name="login_bt">登录</string>
+    <string name="please_input">请输入</string>
+    <string name="offline_bt">离线</string>
+    <string name="offline_assert">离线确认</string>
+    <string name="offline_assert_msg">被离线，请重新登录。</string>
+    <string name="ok_bt">确定</string>
+    <string name="expect_account">fujisann</string>
+    <string name="expect_pass">123</string>
+</resources>
