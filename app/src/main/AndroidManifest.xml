@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
+    <!--非危险权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!--危险权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -9,16 +14,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"/>
-        <activity android:name=".MainActivity">
-        </activity>
-        <!--启动进入登录界面-->
-        <activity android:name=".login.LoginActivity">
+        <activity android:name=".download.DownloadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity"></activity> <!-- 启动进入登录界面 -->
+        <activity android:name=".login.LoginActivity">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <!--注册服务-->
+        <service
+            android:name=".download.DownloadService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

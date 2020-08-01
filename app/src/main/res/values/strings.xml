@@ -15,4 +15,9 @@
     <string name="ok_bt">确定</string>
     <string name="expect_account">fujisann</string>
     <string name="expect_pass">123</string>
+    <string name="download_bt">下载</string>
+    <string name="pause_bt">暂停</string>
+    <string name="cancel_bt">取消</string>
+    <string name="continue_bt">继续</string>
+    <string name="download_delete_bt">删除</string>
 </resources>

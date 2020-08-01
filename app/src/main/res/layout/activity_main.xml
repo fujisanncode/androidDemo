@@ -4,12 +4,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/offline_bt"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/offline_bt"/>
+        android:id="@+id/download_group">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/download_bt"
+            android:id="@+id/download_bt" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause_bt"
+            android:id="@+id/pause_bt" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_bt"
+            android:id="@+id/continue_bt" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_bt"
+            android:id="@+id/cancel_bt" />
+    </LinearLayout>
+
+
+    <!--<Button-->
+    <!--    android:id="@+id/offline_bt"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_gravity="center_horizontal"-->
+    <!--    android:text="@string/offline_bt"/>-->
 
     <!--&lt;!&ndash;相对布局&ndash;&gt;-->
     <!--<Button-->
