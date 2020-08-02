@@ -1,9 +1,9 @@
 # androidDemo
 ## 开发环境
-- android studio 3.5
+- android studio 4.0.1
 - jdk 1.8.0
 - android sdk 30
-- gradle 5.4.1
+- gradle 6.6-rc-4
 ## 进度
 - 第一行代码
 - 活动(Activity)
@@ -20,4 +20,4 @@
 - git remote nike https://github.com/fujisanncode/androidDemo.git: 添加远程仓库
 - git remote -v: 查询远程仓库
 - git push --set-stream nike master: 推送到远程的master分支上
-- git pull: 拉去远程代码
+- git pull: 拉取远程代码, 等于fetch+merger

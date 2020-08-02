@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FruitDetailTheme" parent="AppTheme">
+        <!--指定状态栏透明，此属性仅android5以上生效，只需要v21中声明子项目即可-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

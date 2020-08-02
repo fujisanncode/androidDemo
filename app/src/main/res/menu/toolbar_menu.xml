@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--只显示在toolBar中， 空间不够则不显示-->
+    <item
+        android:id="@+id/toolbar_backup_bt"
+        android:icon="@drawable/ic_baseline_backup_24"
+        android:title="@string/toolbar_backup_bt"
+        app:showAsAction="always"/>
+    <!--如果空间不够显示到菜单中-->
+    <item
+        android:id="@+id/toolbar_delete_bt"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/toolbar_delete_bt"
+        app:showAsAction="ifRoom"/>
+    <!--只显示在菜单中-->
+    <item
+        android:id="@+id/toolbar_setting_bt"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/toolbar_setting_bt"
+        app:showAsAction="never"/>
+</menu>

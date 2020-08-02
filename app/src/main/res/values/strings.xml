@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">博客</string>
     <string name="bt1">按钮1</string>
     <string name="menu_add">增加</string>
     <string name="menu_remove">删除</string>
@@ -20,4 +20,15 @@
     <string name="cancel_bt">取消</string>
     <string name="continue_bt">继续</string>
     <string name="download_delete_bt">删除</string>
+    <string name="toolbar_backup_bt">备份</string>
+    <string name="toolbar_delete_bt">删除</string>
+    <string name="toolbar_setting_bt">设置</string>
+    <string name="draw_layout">侧边栏</string>
+    <string name="nav_call">电话</string>
+    <string name="nav_friend">朋友</string>
+    <string name="nav_location">位置</string>
+    <string name="nav_email">邮箱</string>
+    <string name="nav_task">任务</string>
+    <string name="nav_header_user">fujisannink</string>
+    <string name="nav_header_email">fujisannink@gmail.com</string>
 </resources>
