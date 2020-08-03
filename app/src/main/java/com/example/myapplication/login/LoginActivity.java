@@ -19,10 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_login);
     Button loginBt = findViewById(R.id.login_bt);
-    loginBt.setOnClickListener(
-        new View.OnClickListener() {
-          @Override
-          public void onClick(View view) {
+    loginBt.setOnClickListener(view -> {
             String loginAccount =
                 ((TextView) findViewById(R.id.login_account)).getText().toString();
             String loginPass = ((TextView) findViewById(R.id.login_pass)).getText().toString();
@@ -33,8 +30,8 @@ public class LoginActivity extends AppCompatActivity {
             } else {
               Toast.makeText(LoginActivity.this, R.string.login_error, Toast.LENGTH_SHORT).show();
             }
-          }
-        });
+        }
+        );
     // 设置默认登录用户名
     TextView account = findViewById(R.id.login_account);
     account.setText(getResources().getString(R.string.expect_account));
