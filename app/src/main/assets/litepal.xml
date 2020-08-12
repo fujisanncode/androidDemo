@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value='blog'/>
+    <version value='2'/>
+    <list>
+        <mapping class='com.fujisann.ink.weather.region.Province'/>
+        <mapping class='com.fujisann.ink.weather.region.City'/>
+        <mapping class='com.fujisann.ink.weather.region.County'/>
+    </list>
+</litepal>
