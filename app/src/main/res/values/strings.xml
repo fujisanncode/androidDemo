@@ -31,4 +31,9 @@
     <string name="nav_task">任务</string>
     <string name="nav_header_user">fujisannink</string>
     <string name="nav_header_email">fujisannink@gmail.com</string>
+    <string name="weather_title">预报</string>
+    <string name="weather_aqi_title">空气质量</string>
+    <string name="weather_aqi_text">AQI 指数</string>
+    <string name="weather_pm25_text">PM2.5 指数</string>
+    <string name="weather_suggestion">生活建议</string>
 </resources>

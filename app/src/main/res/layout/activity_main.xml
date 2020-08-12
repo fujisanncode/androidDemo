@@ -4,35 +4,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <fragment
+        android:id="@+id/region_fragment"
+        android:name="com.fujisann.ink.weather.RegionFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/download_group">
+        android:layout_height="match_parent"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/download_bt"
-            android:id="@+id/download_bt" />
+    <!--<LinearLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:id="@+id/download_group">-->
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/pause_bt"
-            android:id="@+id/pause_bt" />
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/download_bt"-->
+    <!--        android:id="@+id/download_bt" />-->
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/continue_bt"
-            android:id="@+id/continue_bt" />
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/pause_bt"-->
+    <!--        android:id="@+id/pause_bt" />-->
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cancel_bt"
-            android:id="@+id/cancel_bt" />
-    </LinearLayout>
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/continue_bt"-->
+    <!--        android:id="@+id/continue_bt" />-->
+
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/cancel_bt"-->
+    <!--        android:id="@+id/cancel_bt" />-->
+    <!--</LinearLayout>-->
 
 
     <!--<Button-->
