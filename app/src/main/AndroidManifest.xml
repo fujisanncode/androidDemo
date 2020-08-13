@@ -12,6 +12,7 @@
 
     <application
         android:name="org.litepal.LitePalApplication"
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/f_blog"
         android:label="@string/app_name"
